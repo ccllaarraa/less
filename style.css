@@ -6,12 +6,14 @@ body {
    background-color: #c783d0;
    background-color:#2b9a51;
    background-color: #f86e25;
+   background-color: rgb(231 129 255 / 54%);
     margin: 0;
-    padding: 0 175px;
+    padding: 0 15px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 23px;
+    line-height: 1.2;
    
 }
 body::-webkit-scrollbar {
@@ -50,12 +52,12 @@ a {
 }
 header {
     display: flex;
-    background: white;
-    padding: 15px;
+    /* background: white;
+    padding: 15px; */
     margin: 20px;
-    color: rgb(255, 157, 0);
+    color: #ff6b0094;
     position: relative;
-    border:  1px solid rgb(255, 157, 0);
+    border:  none;
 }
 header div {
     display: flex;
@@ -78,7 +80,7 @@ header .add {
     margin: 0 20px 0px 20px;
     display: flex;
     position: relative;
-    border:  1px solid rgb(240, 50, 250);
+    border:  1px solid #ff6b0094;
 }
 .menu div {
     cursor: pointer;
@@ -92,30 +94,31 @@ header .add {
     background: white;
     padding: 0;
     margin: 0px 20px 0px 20px;
-    color: rgb(146 78 250);
+    color: #ff6b0094;
     display: flex;
     position: relative;
     flex-direction: column;
     text-align: left;
-    max-width: 910px;
+    max-width: 100%;
     border-top: 20px solid #ededed;
-    border: 1px solid rgb(157, 0, 255);
+    border: 1px solid #ff6b0094;
 }
 
 #about a {
-color: rgb(176, 107, 225);
+color: #ff6b0094;
 }
 #about .title {
     display: flex;
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(218, 167, 250);
+    border-bottom: 1px solid #ff6b0094;
+    color: rgb(204 48 255);
 }
 
 #about .div1 {
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(218, 167, 250);
+    border-bottom: 1px solid #ff6b0094;
 }
 #about .div2 {
     padding: 15px;
@@ -125,29 +128,30 @@ color: rgb(176, 107, 225);
     background: white;
     padding: 0;
     margin: 0px 20px 0px 20px;
-    color: rgb(194, 0, 0);
+    color: #ff6b0094;
     display: flex;
     position: relative;
     flex-direction: column;
     text-align: left;
     border-top: 20px solid #ededed;
-    border: 1px solid rgb(255, 0, 0);
-    max-width: 674px;
+    border: 1px solid #ff6b0094;
+    max-width: 100%;
 }
 #coming a {
-    color: rgb(255 157 157);
+    color: #ff6b0094;
 }
 #coming .title {
     display: flex;
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(255, 136, 136);
+    border-bottom: 1px solid #ff6b0094;
+    color: rgb(204 48 255);
 }
 #coming .div1 {
     /* display: flex; */
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(255, 136, 136);
+    border-bottom: 1px solid #ff6b0094;
     flex-direction: column;
 }
 #coming .div-end {
@@ -160,20 +164,20 @@ color: rgb(176, 107, 225);
 #coming .essay {
     width: 150px;
     height: 200px;
-    background: #9cf1ee;
+    background: #ff6b0094;
     margin: 10px 0 0 0;
 }
 #coming .web1 {
     width: 450px;
     height: 250px;
     background: #ffffff;
-    border: 1px solid grey;
+    border: 1px solid #ff6b0094;
     margin: 10px 0 0 0;
 }
 #coming .web2 {
     width: 450px;
     height: 250px;
-    background: #e5d076;
+    background: #ff6b0094;
     margin: 10px 0 0 0;
 }
 #coming img {
@@ -185,22 +189,23 @@ color: rgb(176, 107, 225);
     background: white;
     padding: 0;
     margin: 0px 20px 0px 20px;
-    color: rgb(30, 120, 37);
+    color: #ff6b0094;
     display: flex;
     position: relative;
     flex-direction: column;
     text-align: left;
     border-top: 20px solid #ededed;
-    border: 1px solid rgb(5, 164, 0);
+    border: 1px solid #ff6b0094;
 }
 #previous .title {
     display: flex;
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(18, 226, 11);
+    border-bottom: 1px solid #ff6b0094;
+    color: rgb(204 48 255);
 }
 #previous .div1 {
-    border-bottom: 1px solid rgb(18, 226, 11);
+    border-bottom: 1px solid #ff6b0094;
 }
 #previous .div-end {
     border-bottom: none;
@@ -223,8 +228,15 @@ color: rgb(176, 107, 225);
     text-align: right;
  }
 #previous .div1 .project-info a {
-   color: rgb(18, 226, 11);
+   /* color: #ff6b0094; */
+   color: rgb(204 48 255);
+   font-weight: bold;
+
 }
+#previous .div1 .project-info a:hover {
+    color: #ff6b0094;
+    font-weight: bold;
+ }
 #previous .div1 .project  {
   display: flex;
   justify-content: space-between;
@@ -232,20 +244,56 @@ color: rgb(176, 107, 225);
  }
  #previous .div1 .project .project-txt {
     padding: 0 15px 15px 15px;
-    width: 52vw;
-    font-size: 12px;
-
+    width: 97%;
+    font-size: 23px;
+    line-height: 1.2;
  }
- #previous .div1 .project .project-imgs .project-img img {
-    height: 450px;
-    width: auto;
+ .project-txt a {
+    color: rgb(255 113 0);
+ }
+ .project-img {
+    height: 800px;
+    width: calc(100% - 15px);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    mix-blend-mode: multiply;
+    background-color: #ff6b0094 ;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .ola:hover .project-img{
+    background-color: rgb(204 48 255) ;
+   }
+   .project-img-dev {
+    height: 400px;
+    width: 719px;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    mix-blend-mode: multiply;
+    background-color: #ff6b0094 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5px;
+   }
+   .project-img-dev:hover {
+    background-color: rgb(204 48 255) ;
+   }
+ #previous .div1 .project .project-imgs .project-img {
+    /* height: 500px;
+    width: 98%;
+    background-size: contain;
+    background-blend-mode: hard-light;
+    mix-blend-mode: multiply;
+    background-color: #ff6b0094 ;
+    background-repeat: no-repeat;
+    background-position: center; */
    }
    #previous .div1 .project .project-imgs {
    position: relative;
     width: auto;
     border: none;
     flex-direction: column;
-    background: white;
+    /* background: white; */
     margin-left: 20px;
     margin-bottom: 20px;
   }
@@ -274,24 +322,25 @@ color: rgb(176, 107, 225);
     background: white;
     padding: 0;
     margin: 0px 20px 0px 20px;
-    color: rgb(0, 120, 139);
+    color: #ff6b0094;
     display: flex;
     position: relative;
     flex-direction: column;
     text-align: left;
     border-top: 20px solid #ededed;
     margin-bottom: 30px;
-    border: 1px solid rgb(11, 201, 226);
+    border: 1px solid #ff6b0094;
 }
 #footer .title {
     display: flex;
     padding: 15px;
     width: auto;
-    border-bottom: 1px solid rgb(167, 225, 250);
+    border-bottom: 1px solid #ff6b0094;
+    color: rgb(204 48 255);
 }
 .footer-lists {
     display: flex;
-    border-bottom: 1px solid rgb(167, 225, 250);
+    border-bottom: 1px solid #ff6b0094;
     justify-content: space-evenly;
 }
 .footer-lists ul li {
@@ -300,7 +349,7 @@ color: rgb(176, 107, 225);
 .footer-lists .div {
     width: 30%;
     padding:  15px;
-    border-right: 1px solid #25d9d9;
+    border-right: 1px solid #ff6b0094;
 }
 .footer-lists .div:last-child {
     width: 30%;
@@ -309,33 +358,34 @@ color: rgb(176, 107, 225);
 }
 .footer-lists ul li i {
     font-size: 10px;
-    color: #25d9d9;
+    color: #ff6b0094;
 }
 .footer-lists ul li i a {
     font-size: 10px;
-    color: #25d9d9;
+    color: #ff6b0094;
 }
 .footer-lists ul li a {
-    color: #14a9db;
+    color: #ff6b0094;
 }
 .footer-i-do {
-    height: 54px;
+    /* height: 54px; */
     /* padding: 15px; */
-    border-bottom: 1px solid rgb(167, 225, 250);
+    border-bottom: 1px solid #ff6b0094;
     position: relative;
 }
 .footer-i-do-ctn {
     display: flex;
+    flex-direction: column;
     padding: 15px;
     -webkit-animation: linear infinite;
     -webkit-animation-name: run2;
     -webkit-animation-duration: 10s;
-    position: absolute;
+    /* position: absolute; */
    
 }
 .footer-contact {
     padding: 15px;
-    border-bottom: 1px solid rgb(167, 225, 250);
+    border-bottom: 1px solid #ff6b0094;
     position: relative;
 }
 .footer-helpful {
@@ -345,19 +395,19 @@ color: rgb(176, 107, 225);
     list-style: none;
 }
 .footer-helpful i a {
-    color: #14a9db;
+    color: #ff6b0094;
 }
 
 .footer-helpful i {
     font-size: 10px;
-    color: #25d9d9;
+    color: #ff6b0094;
 }
 .footer-font {
     padding: 15px;
-    border-top: 1px solid rgb(167, 225, 250);
+    border-top: 1px solid #ff6b0094;
 }
 .footer-font a {
-    color: #14a9db;
+    color: #ff6b0094;
 }
 /* mobile fuck ipads */
   @media only screen and (max-width: 767px) {
@@ -375,12 +425,11 @@ color: rgb(176, 107, 225);
     line-height: 16px;
     width: 4px;
   }
-  .slick-next {
-      height: 200px;
-  }
+
   #previous .div1 .project .project-imgs .project-img img {
     height: auto;
     width: calc(100% - 20px);
+
 }
   .footer-i-do-ctn {
       animation: none;
@@ -411,7 +460,7 @@ color: rgb(176, 107, 225);
   .footer-lists .div {
     width: auto;
     padding: 8px;
-    border-bottom: 1px solid #25d9d9;
+    border-bottom: 1px solid #ff6b0094;
     border-right: none;
 }
 .footer-lists .div:last-child {
