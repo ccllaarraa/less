@@ -50,6 +50,31 @@ a {
     -moz-animation:spin 6s linear infinite;
     animation:spin 6s linear infinite;
 }
+.intro {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    font-size: 12px;
+    text-align: left;
+    background: #55b156;
+    left: 0;
+    color: #654201;
+    padding: 10px;
+    font-family: monospace;
+    pointer-events: none;
+}
+.intro a {
+    color: #392501;
+}
+.hover {
+    margin-top: 0px;
+    color: red;
+    text-align: right;
+    pointer-events: auto;
+}
+.intro:hover {
+  opacity: 0;
+}
 header {
     display: flex;
     /* background: white;
