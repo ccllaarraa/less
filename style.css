@@ -59,9 +59,8 @@ a {
     background: #55b156;
     left: 0;
     color: #654201;
-    padding: 10px;
+    padding: 5px 5px 15px 5px;
     font-family: monospace;
-    pointer-events: none;
 }
 .intro a {
     color: #392501;
@@ -70,11 +69,21 @@ a {
     margin-top: 0px;
     color: red;
     text-align: right;
-    pointer-events: auto;
+    position: fixed;
+    position: fixed;
+    z-index: 2;
+    bottom: 5px;
+    font-size: 12px;
+    right : 5px;
+    font-family: monospace;
 }
-.intro:hover {
+.hover:hover + .intro {
   opacity: 0;
 }
+.hover:hover {
+    opacity: 0;
+  }
+
 header {
     display: flex;
     /* background: white;
