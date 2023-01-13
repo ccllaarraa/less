@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 23px;
-    line-height: 1.2;
+    line-height: 1.4;
    
 }
 body::-webkit-scrollbar {
@@ -271,14 +271,14 @@ color: #ff6b0094;
     padding: 0 15px 15px 15px;
     width: 97%;
     font-size: 23px;
-    line-height: 1.2;
+    line-height: 1.4;
  }
  .project-txt a {
     color: rgb(255 113 0);
  }
  .project-img {
     height: 800px;
-    width: calc(100% - 15px);
+    width: calc(100% - 20px);
     background-size: cover;
     background-blend-mode: hard-light;
     mix-blend-mode: multiply;
@@ -442,7 +442,7 @@ color: #ff6b0094;
     }
   body {
       padding: 0;
-      font-size: 11px;
+      font-size: 16px;
       line-height: 1.4;
   }
   .star {
@@ -464,10 +464,10 @@ color: #ff6b0094;
   #previous .div1 .project .project-txt {
     padding: 0 10px 10px 10px;
     width: auto;
-    font-size: 9px;
+    font-size: 16px;
 }
 .project-info {
-    font-size: 9px;
+    font-size: 16px;
 }
 .project-info {
     flex-direction: column;
@@ -495,7 +495,7 @@ color: #ff6b0094;
     border-right: none;
 }
 .footer-i-do {
-    height: 61px;
+    /* height: 61px; */
 }.old-web {
     margin-left: 0;
 }
@@ -506,14 +506,25 @@ color: #ff6b0094;
     margin: 0 10px;
 } 
 header {
- margin: 10px;
+ margin: 0px;
 }
 .menu {
     margin: 10px 10px 0 10px;
 }
 
 #footer {
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 150px 10px;
+}
+.project-img-dev {
+    height: 170px;
+    max-width: 300px;
+}
+.hover {
+    display: none;
+}
+.intro {
+    font-size: 10px;
+    padding: 5px;
 }
 
   /* end responsive */
